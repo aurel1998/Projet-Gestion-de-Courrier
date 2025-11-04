@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/Dossier_Images">
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture3.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture4.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/images6.jpg</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture5.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture9.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture13.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture14.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture20.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture23.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture27.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture26.PNG</file>
+        <file>C:/Users/YABI/Desktop/IMAGES COREX/Capture24.PNG</file>
+    </qresource>
+</RCC>

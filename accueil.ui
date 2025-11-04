@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Accueil</class>
+ <widget class="QMainWindow" name="Accueil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1307</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>-10</y>
+      <width>211</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <widget class="QPushButton" name="bntcourrier">
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>COURRIERS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bntagent">
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>AGENTS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bntdoc">
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Documentez
+ vous...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bntparametre">
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Parametres 
+Généreaux</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="bntarchives">
+       <property name="font">
+        <font>
+         <family>Algerian</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ACCEDER AUX 
+ARCHIVES</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>400</y>
+      <width>211</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Courriers Recent </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelaccueil">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>1051</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1307</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAccueil">
+    <property name="title">
+     <string>Accueil</string>
+    </property>
+    <addaction name="actionCourrier"/>
+    <addaction name="actionAgent"/>
+    <addaction name="actionDocumentation"/>
+    <addaction name="actionArchives"/>
+    <addaction name="actionParam_tres_g_n_raux"/>
+    <addaction name="separator"/>
+    <addaction name="actionFermer"/>
+   </widget>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEnregistrement">
+    <property name="title">
+     <string>Enregistrement</string>
+    </property>
+    <addaction name="actionEnr_gistrer_un_courrier"/>
+    <addaction name="actionListe_des_courriers"/>
+    <addaction name="actionRechercher_un_courrier"/>
+    <addaction name="separator"/>
+    <addaction name="actionEnr_gistrer_un_agent"/>
+    <addaction name="actionListe_des_agents"/>
+    <addaction name="actionRechercher_un_agent"/>
+    <addaction name="separator"/>
+    <addaction name="actionAide"/>
+    <addaction name="separator"/>
+    <addaction name="actionFermer_2"/>
+   </widget>
+   <widget class="QMenu" name="menuA_propos">
+    <property name="title">
+     <string>A propos</string>
+    </property>
+    <addaction name="actionA_propos_de_Corex"/>
+    <addaction name="actionVisite_guid_e_de_Corex"/>
+    <addaction name="actionRaccourcis_sur_clavier"/>
+    <addaction name="actionContacter_nous"/>
+    <addaction name="separator"/>
+    <addaction name="actionFermer_3"/>
+   </widget>
+   <widget class="QMenu" name="menuDreconnexion">
+    <property name="title">
+     <string>Deconnexion</string>
+    </property>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuAccueil"/>
+   <addaction name="menuEnregistrement"/>
+   <addaction name="menuA_propos"/>
+   <addaction name="menuDreconnexion"/>
+  </widget>
+  <action name="actionEnr_gistrer_un_courrier">
+   <property name="text">
+    <string>Enrégistrer un courrier</string>
+   </property>
+  </action>
+  <action name="actionEnr_gistrer_un_agent">
+   <property name="text">
+    <string>Enrégistrer un agent</string>
+   </property>
+  </action>
+  <action name="actionListe_des_courriers">
+   <property name="text">
+    <string>Liste des courriers</string>
+   </property>
+  </action>
+  <action name="actionListe_des_agents">
+   <property name="text">
+    <string>Liste des agents</string>
+   </property>
+  </action>
+  <action name="actionRechercher_un_courrier">
+   <property name="text">
+    <string>Rechercher un courrier</string>
+   </property>
+  </action>
+  <action name="actionRechercher_un_agent">
+   <property name="text">
+    <string>Rechercher un agent</string>
+   </property>
+  </action>
+  <action name="actionCourrier">
+   <property name="text">
+    <string>Courrier                   CTRL+C</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionAgent">
+   <property name="text">
+    <string>Agent                      CTRL+A</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionDocumentation">
+   <property name="text">
+    <string>Documentation     CTRL+D</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionArchives">
+   <property name="text">
+    <string>Archives                 CTRL+R</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionParam_tres_g_n_raux">
+   <property name="text">
+    <string>Paramètres généraux   CTRL+P</string>
+   </property>
+  </action>
+  <action name="actionFermer">
+   <property name="text">
+    <string>Fermer                    CTRL+Q</string>
+   </property>
+  </action>
+  <action name="actionAide">
+   <property name="text">
+    <string>Aide</string>
+   </property>
+  </action>
+  <action name="actionFermer_2">
+   <property name="text">
+    <string>Fermer</string>
+   </property>
+  </action>
+  <action name="actionA_propos_de_Corex">
+   <property name="text">
+    <string>A propos de Corex</string>
+   </property>
+  </action>
+  <action name="actionVisite_guid_e_de_Corex">
+   <property name="text">
+    <string>Visite guidée de Corex</string>
+   </property>
+  </action>
+  <action name="actionRaccourcis_sur_clavier">
+   <property name="text">
+    <string>Raccourcis  sur clavier</string>
+   </property>
+  </action>
+  <action name="actionContacter_nous">
+   <property name="text">
+    <string>Contacter-nous</string>
+   </property>
+  </action>
+  <action name="actionFermer_3">
+   <property name="text">
+    <string>Fermer</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
